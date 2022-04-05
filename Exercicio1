@@ -1,0 +1,23 @@
+import javax.swing.JOptionPane;
+/**
+ *
+ * @author thiag
+ */
+public class Exercicio1 {
+   public static void main (String args[]){
+       int n;
+       n = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero inteiro:"));
+       
+       if(n>=1){
+           JOptionPane.showMessageDialog(null, "O numero digitado é positivo!");
+       }else if(n == 0){
+       JOptionPane.showMessageDialog(null, "O numero digitado é neutro!");
+       }else{
+       JOptionPane.showMessageDialog(null, "O numero digitado é negatativo"); 
+       
+       }
+               
+   }
+               
+} 
+
