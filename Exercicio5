@@ -1,0 +1,41 @@
+import javax.swing.JOptionPane;
+/**
+ *
+ * @author thiag
+ */
+public class Exercicio5 {
+    public static void main (String args[]){
+        int m;
+        m = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero entre 1 e 12:"));
+        
+        if(m>12){
+            JOptionPane.showMessageDialog(null, "O numero digitado não está entre 1 e 12!");
+        }else if(m == 1){
+            JOptionPane.showMessageDialog(null, "O numero digitado corresponde ao mês de JANEIRO! \n O mês de Janeiro contêm 31 dias!");
+        }else if(m == 2){
+            JOptionPane.showMessageDialog(null, "O numero digitado corresponde ao mês de FEVEIRO! \n O mês de Feveiro contêm 28 dias!");
+        }else if(m == 3){
+            JOptionPane.showMessageDialog(null, "O numero digitado corresponde ao mês de MARÇO! \n O mês de Março contêm 31 dias!");
+        }else if(m == 4){
+            JOptionPane.showMessageDialog(null, "O numero digitado corresponde ao mês de ABRIL! \n O mês de Abril contêm 30 dias!");
+        }else if(m == 5){
+            JOptionPane.showMessageDialog(null, "O numero digitado corresponde ao mês de MAIO! \n O mês de Maio contêm 31 dias! ");
+        }else if(m == 6){
+            JOptionPane.showMessageDialog(null, "O numero digitado corresponde ao mês de JUNHO! \n O mês de Junho contêm 30 dias! ");
+        }else if(m == 7){
+            JOptionPane.showMessageDialog(null, "O numero digitado corresponde ao mês de JULHO! \n O mês de Julho contêm 31 dias! ");
+        }else if(m == 8){
+            JOptionPane.showMessageDialog(null, "O numero digitado corresponde ao mês de AGOSTO! \n O mês de Agosto contêm 31 dias! ");
+        }else if(m == 9){
+            JOptionPane.showMessageDialog(null, "O numero digitado corresponde ao mês de SETEMBRO \n O mês de Setembro contêm 30 dias!");
+        }else if(m == 10){
+            JOptionPane.showMessageDialog(null, "O numero digitado corresponde ao mês de OUTUBRO \n O mês de Outubro contêm 31 dias!");
+        }else if(m == 11){
+            JOptionPane.showMessageDialog(null, "O numero digitado corresponde ao mês de NOVEMBRO \n O mês de Novembro contêm 30 dias! ");
+        }else if(m == 12){
+            JOptionPane.showMessageDialog(null, "O numero digitado corresponde ao mês de DEZEMBRO \n O mês de Dezembro contêm 31 dias! ");
+        }
+    
+    }
+    
+}
