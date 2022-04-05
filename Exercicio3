@@ -1,0 +1,36 @@
+import javax.swing.JOptionPane;
+/**
+ *
+ * @author thiag
+ */
+public class Exercicio3 {
+    public static void main (String args[]){
+        int n1, n2, n3;
+        n1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero:"));
+        n2 = Integer.parseInt(JOptionPane.showInputDialog("Digite um segundo numero diferente do primero:"));
+        n3 = Integer.parseInt(JOptionPane.showInputDialog("Digite um terceiro numero diferente do segundo e do primeiro:"));
+        
+        if(n1 == n2){
+            JOptionPane.showMessageDialog(null, "Você digitou dois numeros iguais");
+        } else if(n2 == n3){
+            JOptionPane.showMessageDialog(null, "Você digitou dois numeros iguais");
+        }else if(n3 == n1){
+            JOptionPane.showMessageDialog(null, "Você digitou dois numeros iguais");
+        }else if(n1>n2){
+            if(n1>n3){
+                JOptionPane.showMessageDialog(null, "O numero "+n1+" é o maior entre os 3 numeros digitados!");
+            }
+        } else if(n2>n3) {
+            if(n2>n1){
+                JOptionPane.showMessageDialog(null, "O numero "+n2+" é o maior entre os 3 numeros digitados!");
+            }
+        }else if(n3>n2){
+            if(n3>n1){
+                JOptionPane.showMessageDialog(null, "O numero "+n3+" é o maior entre os 3 numeros digitados!");
+            }
+        }
+        
+    }
+    
+    
+}
