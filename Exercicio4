@@ -1,0 +1,29 @@
+import javax.swing.JOptionPane;
+/**
+ *
+ * @author thiag
+ */
+public class Exercicio4 {
+    public static void main (String args[]){
+        int d;
+        d = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero entre 1 e 7:"));
+        
+        if(d>=8){
+            JOptionPane.showMessageDialog(null, "O numero digitado não está entre 1 e 7!");
+        }else if(d == 1){
+            JOptionPane.showMessageDialog(null, "O dia da semana que corresponde ao numero digitado é o DOMINGO!");
+        }else if(d == 2){
+            JOptionPane.showMessageDialog(null, "O dia da semana que corresponde ao numero digitado é a SEGUNDA-FEIRA!");
+        }else if(d == 3){
+            JOptionPane.showMessageDialog(null, "O dia da semana que corresponde ao numero digitado é a TERÇA-FEIRA!");
+        }else if(d == 4){
+            JOptionPane.showMessageDialog(null, "O dia da semana que corresponde ao numero digitado é a QUARTA-FEIRA!");
+        }else if(d == 5){
+            JOptionPane.showMessageDialog(null, "O dia da semana que corresponde ao numero digitado é a QUINTA-FEIRA!");
+        }else if(d == 6){
+            JOptionPane.showMessageDialog(null, "O dia da semana que corresponde ao numero digitado é a SEXTA-FEIRA!");
+        }else if(d == 7){
+            JOptionPane.showMessageDialog(null, "O dia da semana que corresponde ao numero digitado é o SABADO!");
+        }
+    }
+}
